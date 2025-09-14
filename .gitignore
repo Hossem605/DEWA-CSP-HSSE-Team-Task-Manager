@@ -1,0 +1,19 @@
+# Dependencies and build output
+node_modules/
+dist/
+
+# Environment files (do not commit secrets)
+.env
+.env.*
+
+# Vercel local state
+.vercel/
+
+# IDE/editor files
+.vscode/
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
